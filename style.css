@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    width: 500px;
     font-family: "Space Mono", serif;
 }
 
@@ -53,7 +52,7 @@ main{
 .pessoas div {
     margin-top: 0.4rem;
     background-color: var(--gren-100);
-    padding: 0.4rem 1.2 rem;
+    padding: 0.4rem 1.2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -92,15 +91,15 @@ main{
 }
 
 .gorjeta input{
-font-size: 1.5rem;
-font-weight: 700;
-border: none;
-text-align: center;
-outline: none;
-padding-block: 0.4rem;
-border-radius: 0.3125;
-background-color: var(--gren-800);
-color: var(--white);
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: none;
+    text-align: center;
+    outline: none;
+    padding-block: 0.4rem;
+    border-radius: 0.3125rem;
+    background-color: var(--gren-800);
+    color: var(--white);
 }
 
 .gorjeta #outra {
@@ -147,4 +146,20 @@ color: var(--white);
 
 .resultados .gorjeta-total{
     margin-bottom: 1.25rem;
+}
+
+.resultados .total{
+    margin-bottom: 2rem;
+}
+
+.resultados button{
+    width: 100%;
+    background: var(--lingh-gren);
+    border: none;
+    border-radius: 0.3125rem;
+    color: var(--gren-800);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    padding-block: 0.5rem;
 }
