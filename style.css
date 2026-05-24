@@ -109,6 +109,11 @@ main{
     color: var(--white);
 }
 
+.gorjeta .botao-ativo{
+    background-color: var(--lingh-gren);
+    color: var(--gren-800);
+}
+
 .gorjeta input[type="button"]:hover,
 .resultados button:hover{
 
