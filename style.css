@@ -127,14 +127,13 @@ main{
     color: var(--gren-300);
 }
 
-.pessoas .texto{
+.pessoas .textos{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
 }
 
-.pessoas .erro{
+.pessoas #erro-div{
     outline: 2px solid var(--danger);
 }
 
@@ -142,6 +141,7 @@ main{
     font-size: 0.75rem;
     color: var(--danger);
     font-weight: 700;
+    display: none;
 }
 
 .resultados{
