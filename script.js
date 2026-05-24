@@ -78,7 +78,7 @@ function calcular(){
 }
 
 const botaoLimpar = document.querySelector(".resultados button")
-botaoLimpar .addEventListener("click")
+botaoLimpar .addEventListener("click",limpar)
 
 function limpar(){
     contaInput.value = ""
