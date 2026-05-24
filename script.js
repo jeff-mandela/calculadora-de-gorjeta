@@ -52,7 +52,7 @@ porcentagem = parseFloat(evento.target.value) /100
         porcentagem = 0
     }
    
-   console.log("porcentagem")
+   console.log(porcentagem)
 }
 
 const gorjetaInput = document.querySelector("#outra")
